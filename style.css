@@ -1,0 +1,125 @@
+* {
+    border-radius: 0.5rem;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+#displayScore,
+#displayScore span {
+    font-size: 3rem;
+}
+
+main {
+    margin: 4rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#scorekeeper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35rem;
+    height: 32rem;
+    background-color: #f5faff;
+    box-shadow: rgba(0, 0, 10, 0.2) 0px 5px 15px;
+}
+
+img {
+    width: 100%;
+    aspect-ratio: 2;
+}
+
+.buttons {
+    display: flex;
+}
+
+button {
+    font-weight: 500;
+    color: white;
+    width: 100%;
+    height: 3rem;
+    border: none;
+    cursor: pointer;
+}
+
+#score1 {
+    background-color: #00cba6;
+}
+
+#score2 {
+    background-color: #2a8dd4;
+    margin: 0 0.1rem;
+}
+
+#reset {
+    background-color: #ec3c5c;
+}
+
+select {
+    text-align: center;
+    width: 4rem;
+    height: 2rem;
+    border-radius: 1rem;
+}
+
+label {
+    font-weight: 500;
+}
+
+
+/* @media(max-width:700px) {
+    #scorekeeper {
+        width: 30rem;
+    }
+}
+
+@media(max-width:600px) {
+    * {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:500px) {
+    * {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:435px) {
+    * {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:380px) {
+    #scorekeeper {
+        width: 28rem;
+    }
+}
+
+@media (max-width:345px) {
+    * {
+        font-size: 10px;
+    }
+}
+
+@media (max-width:295px) {
+    * {
+        font-size: 9px;
+    }
+}
+
+@media (max-width:266px) {
+    #scorekeeper {
+        width: 25rem;
+    }
+} */

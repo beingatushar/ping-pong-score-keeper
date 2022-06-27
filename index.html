@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Ping Pong Score Keeper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div id="scorekeeper">
+            <img src="tennis.avif" alt="tennis">
+            <h1>
+                Ping Pong Score Keeper
+            </h1>
+            <div>
+                <div id="displayScore">
+                    <span id="displayScore1">0</span> to
+                    <span id="displayScore2">0</span>
+                </div>
+                <div>Use the buttons below to keep score.</div>
+                <label for="rounds">Playing To</label>
+                <select name="rounds" id="rounds">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <div class="buttons">
+                <button id="score1">+1 Player One</button>
+                <button id="score2">+1 Player Two</button>
+                <button id="reset">Reset</button>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+
+</html>
